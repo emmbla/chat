@@ -30,7 +30,7 @@ const Join = () => {
             placeholder="Password"
             onChange={(event) => setPassword(event.target.value)}
             className="joinInput"
-            type="text"
+            type="password"
           />
         </div>
         <Link to={'/chat?name=${name}&room=${room}&password=${password}'}>
